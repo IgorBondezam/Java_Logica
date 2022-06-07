@@ -35,7 +35,18 @@ public class DesafioLogica {
 					+ "C (cama, mesa e banho), E (eletrodomesticos), V (vestuario):");
 			categoria = sc.next().charAt(0);
 	
-			if(categoria != 'C' || categoria != 'E' || categoria != 'V') {
+			switch(categoria) {
+			
+			case 'E':
+				break;
+			
+			case 'C':
+				break;
+			
+			case 'V':
+				break;
+			
+			default:
 				cont2 = 0;
 				while(cont2 == 0) {
 					System.out.println("\n\nDigite um valor valido.");
